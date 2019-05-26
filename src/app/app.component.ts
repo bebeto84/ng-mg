@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-mg';
+  isLoading: Boolean = true;
+
+  toggleLoading(): void {
+    this.isLoading = !this.isLoading;
+  }
 }

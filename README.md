@@ -1,6 +1,9 @@
 # NgMg
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
+Components library created with the aim of maintain some common problems resolved in many projects, but unioned in one package
+
+By now, only have the following:
+ * ngMgLoadingIf: Directive used to show an Spinner while loading
 
 ## Development server
 

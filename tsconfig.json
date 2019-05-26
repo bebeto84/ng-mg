@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "loading-if": [
+        "dist/loading-if"
+      ],
+      "loading-if/*": [
+        "dist/loading-if/*"
+      ]
+    }
   }
 }

@@ -133,6 +133,41 @@
           }
         }
       }
+    },
+    "loading-if": {
+      "root": "projects/loading-if",
+      "sourceRoot": "projects/loading-if/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/loading-if/tsconfig.lib.json",
+            "project": "projects/loading-if/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/loading-if/src/test.ts",
+            "tsConfig": "projects/loading-if/tsconfig.spec.json",
+            "karmaConfig": "projects/loading-if/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/loading-if/tsconfig.lib.json",
+              "projects/loading-if/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ng-mg"

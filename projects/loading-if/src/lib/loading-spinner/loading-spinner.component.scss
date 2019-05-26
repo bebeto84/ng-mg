@@ -1,0 +1,25 @@
+@mixin spinner($size: 5rem, $color: grey) {
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    border: 0.5rem solid $color;
+    margin: 0 auto;
+    position: relative;
+    border-left-color: transparent;
+    transform: translateZ(0);
+    animation: spin 1.3s infinite linear;
+  }
+  
+  .loading-spinner {
+    @include spinner();
+    margin: 20px auto;
+  }
