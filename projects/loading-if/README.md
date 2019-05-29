@@ -1,5 +1,5 @@
 
-#@ng-mg/loading-if
+### @ng-mg/loading-if
 
 Structural directive used similar as `*ngIf` but automatically will add an Spinner component to the DOM while loading. Once the loading is done, the DOM will be replaced with the actual  container where the directive is placed
 
