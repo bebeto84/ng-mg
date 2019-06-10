@@ -7,5 +7,7 @@
 
 Components library created with the aim of maintain some common problems resolved in many projects, but unioned in one package
 
+You can have a look on the library gallery: https://ng-mg-library.firebaseapp.com
+
 By now, only have the following:
  * [ngMgLoadingIf](/libs/loading-if): Directive used to show an Spinner while loading

@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "storybook": "start-storybook -p 22888",
+    "build-storybook": "build-storybook",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

@@ -34,6 +34,7 @@ package-lock.json
 yarn-error.log
 testem.log
 /typings
+/storybook-static
 
 # System Files
 .DS_Store
