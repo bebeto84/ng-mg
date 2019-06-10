@@ -6,9 +6,14 @@
     "storybook": "start-storybook -p 22888",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "patch": "lerna version patch"
   },
+  "workspaces": [
+    "libs/loading-if"
+  ],
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@angular/animations": "~7.0.0",
     "@angular/common": "~7.0.0",
@@ -30,6 +35,7 @@
     "@angular/compiler-cli": "~7.0.0",
     "@angular/language-service": "~7.0.0",
     "@babel/core": "^7.4.5",
+    "@lerna/version": "^3.15.0",
     "@storybook/angular": "^5.0.0",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
@@ -43,6 +49,7 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "lerna": "^3.15.0",
     "ng-packagr": "^4.2.0",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",

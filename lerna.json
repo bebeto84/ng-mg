@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "libs/loading-if"
+  ],
+  "version": "0.0.4",
+  "useWorkspaces": true
+}
