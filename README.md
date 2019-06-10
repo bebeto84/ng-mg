@@ -8,4 +8,4 @@
 Components library created with the aim of maintain some common problems resolved in many projects, but unioned in one package
 
 By now, only have the following:
- * [ngMgLoadingIf](/projects/loading-if): Directive used to show an Spinner while loading
+ * [ngMgLoadingIf](/libs/loading-if): Directive used to show an Spinner while loading
