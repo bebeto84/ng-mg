@@ -1,6 +1,6 @@
 {
   "name": "ng-mg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "scripts": {
     "ng": "ng",
     "storybook": "start-storybook -p 22888",
