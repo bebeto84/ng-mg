@@ -8,7 +8,7 @@ import {Component, OnInit} from '@angular/core';
 @Component({
   selector: 'ng-mg-loading-component',
   template: `
-      <ng-container *ngMgLoadingIf="isLoading$ | async">
+      <ng-container *ngMgLoadingIf="isLoading$s | async">
           <ng-content></ng-content>
       </ng-container>
   `
@@ -43,9 +43,9 @@ storiesOf('LoadingIf', module)
   }))
   .add('with Observable that changes after 5 seconds', () => ({
     template: `
-    <ng-mg-loading-component>
-      <span>Observable fininish and content is loaded</span>
-    </ng-mg-loading-component>`,
+      <ng-mg-loading-component>
+        <span>Observable fininish and content is loaded</span>
+      </ng-mg-loading-component>`,
     props: {
     },
   }));

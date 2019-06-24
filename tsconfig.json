@@ -23,6 +23,12 @@
       ],
       "loading-if/*": [
         "dist/loading-if/*"
+      ],
+      "rating": [
+        "dist/rating"
+      ],
+      "rating/*": [
+        "dist/rating/*"
       ]
     }
   }
